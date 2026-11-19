@@ -33,6 +33,10 @@ Parcel will serve the game at [http://localhost:1234](http://localhost:1234).
 - Writing small functions: `generateSecret`, `countBullsAndCows`, `validateGuess`
 - Responsive layout with media queries
 
+## Live demo:
+
+https://bulls-and-cows-mihaela.netlify.app/
+
 ## Author
 
 Mihaela Samardzhieva
