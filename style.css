@@ -132,7 +132,7 @@ h1 {
 }
 
 .results__list {
-  list-style-position: inside; /* keeps the numbers on screen on small phones */
+  list-style-position: inside;
 }
 
 .result {
@@ -199,6 +199,24 @@ h1 {
 .hidden {
   visibility: hidden;
   opacity: 0;
+}
+
+footer {
+  padding: 2rem 1.6rem 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover,
+footer a:focus-visible {
+  opacity: 1;
+  text-decoration: none;
 }
 
 @media (max-width: 700px) {
